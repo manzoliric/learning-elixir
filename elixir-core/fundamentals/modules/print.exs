@@ -16,7 +16,7 @@ defmodule MyModule.Print do
     puts("Number #{number} is even? #{is_even(number)}")
   end
 
-  def inspect(arg) do
+  defp inspect(arg) do
     puts("Init")
     puts(arg)
     puts("End")
